@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../../components/NavBar';
 import Card from '../../components/Card';
 import Carousel from '../../components/Carousel';
+import Footer from '../Footer';
 
 import {
   Main,
@@ -66,6 +67,7 @@ const Home = () => {
           <Carousel />
         </Section>
       </Main>
+      <Footer />
     </>
   );
 };
